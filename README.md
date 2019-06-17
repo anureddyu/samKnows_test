@@ -5,10 +5,10 @@ Data Engineer Test
 Tried to find the ways to identify the anomalies in the data ingested / reported. I choose to use python with pandas library as we need to parse csv and randomly pick data out of it. This has better feature to create dataframes out of csv and can apply functions and queries on dataframe. It can be faster compared with SQL on large set of data. We can run my python script with below command .
 
 Linux :
-py dataMesurement_anomalies.py
+py dataMesurementAnomalies.py
 
 Windows:
-python.exe dataMesurement_anomalies.py
+python.exe dataMesurementAnomalies.py
 
 # Assumptions while providing the solution for finding problems with the given data:
 1.	There shouldn't be any duplicate records with same device UUID and same measurement time or for the same device UUID , there shouldn't be data processed for multiple times.
